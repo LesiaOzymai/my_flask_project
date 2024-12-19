@@ -10,3 +10,13 @@ services:
       PORT: "8000"
     ports:
       - "8000:8000"
+
+  db:
+    image: postgres:15.4-alpine3.18
+    environment:
+        POSTGRES_USER: user
+        POSTGRES_PASSWORD: password
+        POSTGRES_DB: finance
+        DB_HOST: db
+    ports:
+      - "5002:5432"
