@@ -13,7 +13,4 @@ Built by [Render.com](https://render.com). Access the app at [my-flask-project](
 - Postman
 - Render
 
-## In Postman theres 
-- User Management.
-- Category Management.
-- Record Management.
+## Мій варіант для третьої лаб - облік доходів
